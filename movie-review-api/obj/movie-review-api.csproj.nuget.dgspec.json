@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vladislav\\Desktop\\movie-review-api\\movie-review-api\\movie-review-api.csproj": {}
+    "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\movie-review-api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vladislav\\Desktop\\movie-review-api\\movie-review-api\\movie-review-api.csproj": {
+    "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\movie-review-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vladislav\\Desktop\\movie-review-api\\movie-review-api\\movie-review-api.csproj",
+        "projectUniqueName": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\movie-review-api.csproj",
         "projectName": "movie-review-api",
-        "projectPath": "C:\\Users\\Vladislav\\Desktop\\movie-review-api\\movie-review-api\\movie-review-api.csproj",
+        "projectPath": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\movie-review-api.csproj",
         "packagesPath": "C:\\Users\\Vladislav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vladislav\\Desktop\\movie-review-api\\movie-review-api\\obj\\",
+        "outputPath": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vladislav\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

@@ -1,4 +1,7 @@
 
+using Microsoft.EntityFrameworkCore;
+using movie_review_api.Data;
+
 namespace movie_review_api
 {
     public class Program
@@ -7,16 +10,15 @@ namespace movie_review_api
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddDbContext<DataContext>(
+    o         => o.UseNpgsql(builder.Configuration.GetConnectionString("WebApiDatabase")));
+
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();

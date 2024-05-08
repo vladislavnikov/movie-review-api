@@ -103,3 +103,4 @@ C:\Users\Vladislav\Documents\GitHub\movie-review-api\movie-review-api\obj\Debug\
 C:\Users\Vladislav\Documents\GitHub\movie-review-api\movie-review-api\obj\Debug\net8.0\movie-review-api.pdb
 C:\Users\Vladislav\Documents\GitHub\movie-review-api\movie-review-api\obj\Debug\net8.0\movie-review-api.genruntimeconfig.cache
 C:\Users\Vladislav\Documents\GitHub\movie-review-api\movie-review-api\obj\Debug\net8.0\ref\movie-review-api.dll
+C:\Users\Vladislav\Documents\GitHub\movie-review-api\movie-review-api\bin\Debug\net8.0\AutoMapper.dll

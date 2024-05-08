@@ -1,6 +1,10 @@
 
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using movie_review_api.Contracts;
 using movie_review_api.Data;
+using movie_review_api.Repository;
+using System;
 
 namespace movie_review_api
 {
@@ -11,11 +15,15 @@ namespace movie_review_api
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddControllers();
+            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            builder.Services.AddScoped<IMovieRepository, MovieRepository>();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            builder.Services.AddDbContext<DataContext>(
-    o         => o.UseNpgsql(builder.Configuration.GetConnectionString("WebApiDatabase")));
+            builder.Services.AddDbContext<DataContext>((serviceProvider, options) =>
+            {
+                options.UseNpgsql(builder.Configuration.GetConnectionString("WebApiDatabase"));
+            });
 
             var app = builder.Build();
 

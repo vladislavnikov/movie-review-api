@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ix2sWT8ems4Uw4pswCpnlo9wh4fz0NufURG8CxEivePAi9J5K6PwVemar+1GbeAWZqamrGyAV99m/N2MWZPCpg==",
+  "dgSpecHash": "auZbIc1b1Ktx8BM6V4QXTsjcShihNZtI/x5yEZ6Bqm5Z7igEjfoYwMmtZVgIm3FpB4uyAimbwQCF+hOH7Xuc7A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\movie-review-api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Vladislav\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Vladislav\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Vladislav\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Vladislav\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

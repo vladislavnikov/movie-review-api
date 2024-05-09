@@ -82,9 +82,8 @@ namespace movie_review_api.Controllers
         [ProducesResponseType(400)]
         [ProducesResponseType(204)]
         [ProducesResponseType(404)]
-        public async Task<IActionResult> UpdateMovie(int movieId,
-            [FromQuery] int directorId, [FromQuery] int genreId,
-            [FromBody] MovieDto updatedMovie)
+        public async Task<IActionResult> UpdateMovie(int movieId, [FromQuery] int genreId,
+            [FromBody] MovieUpdateDto updatedMovie)
         {
             if (updatedMovie == null)
             {
@@ -93,7 +92,7 @@ namespace movie_review_api.Controllers
 
             if (movieId != updatedMovie.Id)
             {
-                return BadRequest(ModelState);
+                return BadRequest("IDs are not the same");
             }
 
             if (!ModelState.IsValid)
@@ -103,7 +102,7 @@ namespace movie_review_api.Controllers
 
             var movieMap = mapper.Map<Movie>(updatedMovie);
 
-            movieRepository.UpdateMovie(movieId, directorId, genreId, movieMap);
+            movieRepository.UpdateMovie(movieId, movieMap.DirectorId, genreId, movieMap);
 
             return NoContent();
         }
@@ -112,7 +111,7 @@ namespace movie_review_api.Controllers
         [ProducesResponseType(400)]
         [ProducesResponseType(204)]
         [ProducesResponseType(404)]
-        public IActionResult DeleteMovie(int movieId)
+        public async Task<IActionResult> DeleteMovie(int movieId)
         {
             if (!movieRepository.MovieExistsById(movieId))
             {

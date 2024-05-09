@@ -60,13 +60,13 @@ namespace movie_review_api.Repository
         public bool MovieExistsById(int id)
         {
             var movie = context.Movies.Find(id);
-            return movie != null ? true : false;
+            return movie != null;
         }
 
         public bool MovieExistsByTitle(string title)
         {
             var movie = context.Movies.FirstOrDefault(m => m.Title == title);
-            return movie != null ? true : false; 
+            return movie != null; 
         }
 
         public Task Save()

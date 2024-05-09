@@ -1,17 +1,29 @@
 ﻿using AutoMapper;
 using movie_review_api.Data.Models;
+using movie_review_api.DTOs.Director;
 using movie_review_api.DTOs.Movie;
 
 namespace movie_review_api.Helper
 {
     public class MappingProfiles : Profile
     {
-        public MappingProfiles() {
+        public MappingProfiles()
+        {
             CreateMap<Movie, MovieDto>();
             CreateMap<MovieDto, Movie>();
 
             CreateMap<MovieCreateDto, Movie>();
-            CreateMap<Movie, MovieCreateDto>();
+
+            CreateMap<MovieUpdateDto, Movie>();
+
+            CreateMap<Director, DirectorDto>();
+            CreateMap<DirectorDto, Director>();
+
+            CreateMap<DirectorCreateDto, Director>();
+
+            CreateMap<DirectorUpdateDto, Director>();
+
+
         }
     }
 }

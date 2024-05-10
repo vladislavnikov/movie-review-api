@@ -7,6 +7,46 @@
       "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\repository\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\repository\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\dtos\\genre\\genreupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\dtos\\genre\\genreupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\dtos\\genre\\genrecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\dtos\\genre\\genrecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\contracts\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\contracts\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\contracts\\idirectorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\contracts\\idirectorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\helper\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\helper\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\dtos\\genre\\genredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\dtos\\genre\\genredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\data\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\data\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\dtos\\director\\directordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\dtos\\director\\directordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,28 +59,8 @@
       "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\dtos\\director\\directorupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\controllers\\directorcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\controllers\\directorcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\repository\\directorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\repository\\directorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\helper\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\helper\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\contracts\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\contracts\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\contracts\\idirectorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\contracts\\idirectorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\dtos\\movie\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\data\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\data\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\data\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\data\\models\\movieactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\data\\models\\movieactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -89,12 +105,88 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 355,
-          "SelectedChildIndex": 12,
+          "DockedWidth": 377,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "GenreUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\DTOs\\Genre\\GenreUpdateDto.cs",
+              "RelativeDocumentMoniker": "movie-review-api\\DTOs\\Genre\\GenreUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\DTOs\\Genre\\GenreUpdateDto.cs",
+              "RelativeToolTip": "movie-review-api\\DTOs\\Genre\\GenreUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T16:39:41.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenreCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\DTOs\\Genre\\GenreCreateDto.cs",
+              "RelativeDocumentMoniker": "movie-review-api\\DTOs\\Genre\\GenreCreateDto.cs",
+              "ToolTip": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\DTOs\\Genre\\GenreCreateDto.cs",
+              "RelativeToolTip": "movie-review-api\\DTOs\\Genre\\GenreCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T16:39:29.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Repository\\GenreRepository.cs",
+              "RelativeDocumentMoniker": "movie-review-api\\Repository\\GenreRepository.cs",
+              "ToolTip": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Repository\\GenreRepository.cs",
+              "RelativeToolTip": "movie-review-api\\Repository\\GenreRepository.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAYwB0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T16:37:14.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenreController.cs",
+              "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Controllers\\GenreController.cs",
+              "RelativeDocumentMoniker": "movie-review-api\\Controllers\\GenreController.cs",
+              "ToolTip": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Controllers\\GenreController.cs",
+              "RelativeToolTip": "movie-review-api\\Controllers\\GenreController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwCsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T16:35:58.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IGenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Contracts\\IGenreRepository.cs",
+              "RelativeDocumentMoniker": "movie-review-api\\Contracts\\IGenreRepository.cs",
+              "ToolTip": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Contracts\\IGenreRepository.cs",
+              "RelativeToolTip": "movie-review-api\\Contracts\\IGenreRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T16:36:50.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenreDto.cs",
+              "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\DTOs\\Genre\\GenreDto.cs",
+              "RelativeDocumentMoniker": "movie-review-api\\DTOs\\Genre\\GenreDto.cs",
+              "ToolTip": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\DTOs\\Genre\\GenreDto.cs",
+              "RelativeToolTip": "movie-review-api\\DTOs\\Genre\\GenreDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T16:37:39.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "DirectorUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\DTOs\\Director\\DirectorUpdateDto.cs",
               "RelativeDocumentMoniker": "movie-review-api\\DTOs\\Director\\DirectorUpdateDto.cs",
@@ -102,12 +194,11 @@
               "RelativeToolTip": "movie-review-api\\DTOs\\Director\\DirectorUpdateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T10:56:47.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T10:56:47.346Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "DirectorCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\DTOs\\Director\\DirectorCreateDto.cs",
               "RelativeDocumentMoniker": "movie-review-api\\DTOs\\Director\\DirectorCreateDto.cs",
@@ -115,12 +206,11 @@
               "RelativeToolTip": "movie-review-api\\DTOs\\Director\\DirectorCreateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T10:36:31.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T10:36:31.008Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "DirectorDto.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\DTOs\\Director\\DirectorDto.cs",
               "RelativeDocumentMoniker": "movie-review-api\\DTOs\\Director\\DirectorDto.cs",
@@ -128,51 +218,23 @@
               "RelativeToolTip": "movie-review-api\\DTOs\\Director\\DirectorDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T10:26:30.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T10:26:30.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DirectorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Repository\\DirectorRepository.cs",
-              "RelativeDocumentMoniker": "movie-review-api\\Repository\\DirectorRepository.cs",
-              "ToolTip": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Repository\\DirectorRepository.cs",
-              "RelativeToolTip": "movie-review-api\\Repository\\DirectorRepository.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA5wBAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T10:17:30.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "IDirectorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Contracts\\IDirectorRepository.cs",
               "RelativeDocumentMoniker": "movie-review-api\\Contracts\\IDirectorRepository.cs",
               "ToolTip": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Contracts\\IDirectorRepository.cs",
               "RelativeToolTip": "movie-review-api\\Contracts\\IDirectorRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAoAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T10:17:01.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T10:17:01.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DirectorContoller.cs",
-              "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Controllers\\DirectorContoller.cs",
-              "RelativeDocumentMoniker": "movie-review-api\\Controllers\\DirectorContoller.cs",
-              "ToolTip": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Controllers\\DirectorContoller.cs",
-              "RelativeToolTip": "movie-review-api\\Controllers\\DirectorContoller.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAASwD4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T16:40:00.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "MovieUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\DTOs\\Movie\\MovieUpdateDto.cs",
               "RelativeDocumentMoniker": "movie-review-api\\DTOs\\Movie\\MovieUpdateDto.cs",
@@ -180,12 +242,11 @@
               "RelativeToolTip": "movie-review-api\\DTOs\\Movie\\MovieUpdateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T16:32:18.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T16:32:18.049Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "IMovieRepository.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Contracts\\IMovieRepository.cs",
               "RelativeDocumentMoniker": "movie-review-api\\Contracts\\IMovieRepository.cs",
@@ -193,25 +254,23 @@
               "RelativeToolTip": "movie-review-api\\Contracts\\IMovieRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T16:39:19.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T16:39:19.254Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MappingProfiles.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Helper\\MappingProfiles.cs",
               "RelativeDocumentMoniker": "movie-review-api\\Helper\\MappingProfiles.cs",
               "ToolTip": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Helper\\MappingProfiles.cs",
               "RelativeToolTip": "movie-review-api\\Helper\\MappingProfiles.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABMAAAAvAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T16:33:28.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T16:33:28.576Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "MovieDto.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\DTOs\\Movie\\MovieDto.cs",
               "RelativeDocumentMoniker": "movie-review-api\\DTOs\\Movie\\MovieDto.cs",
@@ -219,12 +278,11 @@
               "RelativeToolTip": "movie-review-api\\DTOs\\Movie\\MovieDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T16:27:46.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T16:27:46.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "20240507090823_initial.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Migrations\\20240507090823_initial.cs",
               "RelativeDocumentMoniker": "movie-review-api\\Migrations\\20240507090823_initial.cs",
@@ -236,16 +294,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Program.cs",
               "RelativeDocumentMoniker": "movie-review-api\\Program.cs",
               "ToolTip": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Program.cs",
               "RelativeToolTip": "movie-review-api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T14:27:48.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T14:27:48.464Z"
             },
             {
               "$type": "Document",
@@ -255,14 +312,14 @@
               "RelativeDocumentMoniker": "movie-review-api\\appsettings.json",
               "ToolTip": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\appsettings.json",
               "RelativeToolTip": "movie-review-api\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-05-01T14:13:21.455Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Review.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Data\\Models\\Review.cs",
               "RelativeDocumentMoniker": "movie-review-api\\Data\\Models\\Review.cs",
@@ -274,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "MovieActor.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Data\\Models\\MovieActor.cs",
               "RelativeDocumentMoniker": "movie-review-api\\Data\\Models\\MovieActor.cs",
@@ -286,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "MovieGenre.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Data\\Models\\MovieGenre.cs",
               "RelativeDocumentMoniker": "movie-review-api\\Data\\Models\\MovieGenre.cs",
@@ -298,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Director.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Data\\Models\\Director.cs",
               "RelativeDocumentMoniker": "movie-review-api\\Data\\Models\\Director.cs",
@@ -306,12 +363,11 @@
               "RelativeToolTip": "movie-review-api\\Data\\Models\\Director.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T16:16:54.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T16:16:54.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Actor.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Data\\Models\\Actor.cs",
               "RelativeDocumentMoniker": "movie-review-api\\Data\\Models\\Actor.cs",
@@ -323,19 +379,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 10,
               "Title": "Genre.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Data\\Models\\Genre.cs",
               "RelativeDocumentMoniker": "movie-review-api\\Data\\Models\\Genre.cs",
               "ToolTip": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Data\\Models\\Genre.cs",
               "RelativeToolTip": "movie-review-api\\Data\\Models\\Genre.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T16:16:29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Data\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "movie-review-api\\Data\\Models\\Movie.cs",

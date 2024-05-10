@@ -1,7 +1,6 @@
 ﻿using movie_review_api.Contracts;
 using movie_review_api.Data;
 using movie_review_api.Data.Models;
-using System.Runtime.CompilerServices;
 
 namespace movie_review_api.Repository
 {

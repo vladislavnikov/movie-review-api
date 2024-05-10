@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Diagnostics;
 using movie_review_api.Contracts;
 using movie_review_api.Data.Models;
 using movie_review_api.DTOs.Director;

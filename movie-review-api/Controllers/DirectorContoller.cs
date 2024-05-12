@@ -45,14 +45,14 @@ namespace movie_review_api.Controllers
                 return NotFound();
             }
 
-            var dorector = mapper.Map<DirectorDto>(directorRepository.GetDirector(directorId));
+            var director = mapper.Map<DirectorDto>(directorRepository.GetDirector(directorId));
 
-            if (dorector == null)
+            if (director == null)
             {
                 return BadRequest(ModelState);
             }
 
-            return Ok(dorector);
+            return Ok(director);
         }
 
         [HttpPost]
@@ -73,7 +73,7 @@ namespace movie_review_api.Controllers
 
             var directorMap = mapper.Map<Director>(directorModel);
 
-            directorRepository.CreateDirector(directorMap);
+           await directorRepository.CreateDirector(directorMap);
 
             return Ok();
         }
@@ -101,7 +101,7 @@ namespace movie_review_api.Controllers
 
             var directorMap = mapper.Map<Director>(updatedDirector);
 
-            directorRepository.UpdateDirector(directorId, directorMap);
+           await directorRepository.UpdateDirector(directorId, directorMap);
 
             return Ok();
         }
@@ -117,7 +117,7 @@ namespace movie_review_api.Controllers
                 return NotFound();
             }
 
-            directorRepository.DeleteDirector(directorId);
+            await directorRepository.DeleteDirector(directorId);
 
             return Ok();
         }

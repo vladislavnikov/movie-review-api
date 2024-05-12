@@ -19,6 +19,7 @@ namespace movie_review_api
             builder.Services.AddScoped<IMovieRepository, MovieRepository>();
             builder.Services.AddScoped<IDirectorRepository, DirectorRepository>();
             builder.Services.AddScoped<IGenreRepository, GenreRepository>();
+            builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 

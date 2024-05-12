@@ -3,6 +3,7 @@ using movie_review_api.Data.Models;
 using movie_review_api.DTOs.Director;
 using movie_review_api.DTOs.Genre;
 using movie_review_api.DTOs.Movie;
+using movie_review_api.DTOs.Review;
 
 namespace movie_review_api.Helper
 {
@@ -30,6 +31,13 @@ namespace movie_review_api.Helper
             CreateMap<GenreCreateDto, Genre>();
 
             CreateMap<GenreUpdateDto, Genre>();
+
+            CreateMap<Review, ReviewDto>();
+            CreateMap<ReviewDto, Review>();
+
+            CreateMap<ReviewCreateDto, Review>();
+
+            CreateMap<ReviewUpdateDto, Review>();
 
 
         }

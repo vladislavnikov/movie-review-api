@@ -93,7 +93,7 @@ namespace movie_review_api.Controllers
 
             var genreMap = mapper.Map<Genre>(genreModel);
 
-            genreRepository.CreateGenre(genreMap);
+           await genreRepository.CreateGenre(genreMap);
 
             return Ok();
         }
@@ -121,7 +121,7 @@ namespace movie_review_api.Controllers
 
             var genreMap = mapper.Map<Genre>(updatedGenre);
 
-            genreRepository.UpdateGenre(genreId, genreMap);
+            await genreRepository.UpdateGenre(genreId, genreMap);
 
             return Ok();
         }
@@ -138,7 +138,7 @@ namespace movie_review_api.Controllers
                 return NotFound();
             }
 
-            genreRepository.DeleteGenre(genreId);
+            await genreRepository.DeleteGenre(genreId);
 
             return Ok();
         }

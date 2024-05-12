@@ -73,7 +73,7 @@ namespace movie_review_api.Controllers
 
             var movieMap = mapper.Map<Movie>(movieModel);
 
-            movieRepository.CreateMovie(directorId, genreId, movieMap);
+            await movieRepository.CreateMovie(directorId, genreId, movieMap);
 
             return Ok();
         }
@@ -102,7 +102,7 @@ namespace movie_review_api.Controllers
 
             var movieMap = mapper.Map<Movie>(updatedMovie);
 
-            movieRepository.UpdateMovie(movieId, movieMap.DirectorId, genreId, movieMap);
+            await movieRepository.UpdateMovie(movieId, movieMap.DirectorId, genreId, movieMap);
 
             return NoContent();
         }
@@ -118,7 +118,7 @@ namespace movie_review_api.Controllers
                 return NotFound();
             }
 
-            movieRepository.DeleteMovie(movieId);
+            await movieRepository.DeleteMovie(movieId);
             return NoContent();
         }
     }

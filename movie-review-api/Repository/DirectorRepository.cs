@@ -15,16 +15,14 @@ namespace movie_review_api.Repository
         public Task CreateDirector(Director director)
         {
             context.Add(director);
-            Save();
-            return Task.CompletedTask;
+            return Save();
         }
 
         public Task DeleteDirector(int directorId)
         {
             var director = GetDirector(directorId);
             context.Directors.Remove(director);
-            Save();
-            return Task.CompletedTask;
+            return Save();
         }
 
         public bool DirectorExistsById(int id)
@@ -62,8 +60,7 @@ namespace movie_review_api.Repository
             directorToUpdate.FirstName = director.FirstName;
             directorToUpdate.LastName = director.LastName;
 
-            Save();
-            return Task.CompletedTask;
+            return Save();
         }
     }
 }

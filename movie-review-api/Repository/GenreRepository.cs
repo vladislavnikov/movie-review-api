@@ -14,16 +14,14 @@ namespace movie_review_api.Repository
         public Task CreateGenre(Genre genre)
         {
             context.Add(genre);
-            Save();
-            return Task.CompletedTask;
+            return Save();
         }
 
         public Task DeleteGenre(int genreId)
         {
             var genre = GetGenre(genreId);
             context.Remove(genre);
-            Save();
-            return Task.CompletedTask;
+            return Save();
         }
 
         public bool GenreExistsById(int id)
@@ -65,8 +63,7 @@ namespace movie_review_api.Repository
 
             genreToUpdate.Name = genre.Name;
 
-            Save();
-            return Task.CompletedTask;
+            return Save();
         }
     }
 }

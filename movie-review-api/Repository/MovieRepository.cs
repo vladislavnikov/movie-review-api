@@ -30,9 +30,7 @@ namespace movie_review_api.Repository
             movie.DirectorId = directorId;
             context.Add(movie);
 
-            Save();
-
-            return Task.CompletedTask;
+            return Save();
         }
 
         public Task DeleteMovie(int movieId)
@@ -43,8 +41,7 @@ namespace movie_review_api.Repository
             var movieGenresToRemove = context.MovieGenres.Where(mg => mg.MovieId == movieId);
             context.MovieGenres.RemoveRange(movieGenresToRemove);
 
-            Save();
-            return Task.CompletedTask;
+            return Save();
         }
 
         public Movie GetMovie(int id)
@@ -83,8 +80,7 @@ namespace movie_review_api.Repository
             movieToUpdate.Description = movie.Description;
             movieToUpdate.DirectorId = directorId;
 
-            Save();
-            return Task.CompletedTask;
+            return Save();
         }
     }
 }

@@ -16,16 +16,14 @@ namespace movie_review_api.Repository
         public Task CreateReview(Review review)
         {
             context.Reviews.Add(review);
-            Save();
-            return Task.CompletedTask;
+            return Save();
         }
 
         public Task DeleteReview(int id)
         {
             var review = GetReview(id);
             context.Remove(review);
-            Save();
-            return Task.CompletedTask;
+            return Save();
         }
 
         public Review GetReview(int id)
@@ -72,8 +70,7 @@ namespace movie_review_api.Repository
             reviewToUpdate.Description = review.Description;
             reviewToUpdate.MovieId = review.MovieId;
 
-            Save();
-            return Task.CompletedTask;
+            return Save();
         }
     }
 }

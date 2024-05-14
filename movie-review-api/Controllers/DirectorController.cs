@@ -8,12 +8,12 @@ namespace movie_review_api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class DirectorContoller : Controller
+    public class DirectorController : Controller
     {
         private readonly IMapper mapper;
         private readonly IDirectorRepository directorRepository;
 
-        public DirectorContoller(IMapper _mapper, IDirectorRepository _directorRepository)
+        public DirectorController(IMapper _mapper, IDirectorRepository _directorRepository)
         {
             this.mapper = _mapper;
             this.directorRepository = _directorRepository;

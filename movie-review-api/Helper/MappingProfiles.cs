@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using movie_review_api.Data.Models;
+using movie_review_api.DTOs.Actor;
 using movie_review_api.DTOs.Director;
 using movie_review_api.DTOs.Genre;
 using movie_review_api.DTOs.Movie;
@@ -38,6 +39,13 @@ namespace movie_review_api.Helper
             CreateMap<ReviewCreateDto, Review>();
 
             CreateMap<ReviewUpdateDto, Review>();
+
+            CreateMap<Actor, ActorDto>();
+            CreateMap<ActorDto, Actor>();
+
+            CreateMap<ActorCreateDto, Actor>();
+
+            CreateMap<ActorUpdateDto, Actor>();
 
 
         }

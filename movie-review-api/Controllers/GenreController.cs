@@ -102,7 +102,7 @@ namespace movie_review_api.Controllers
         [ProducesResponseType(400)]
         [ProducesResponseType(204)]
         [ProducesResponseType(404)]
-        public async Task<IActionResult> UpdateGenrer(int genreId, [FromBody] GenreUpdateDto updatedGenre)
+        public async Task<IActionResult> UpdateGenre(int genreId, [FromBody] GenreUpdateDto updatedGenre)
         {
             if (updatedGenre == null)
             {

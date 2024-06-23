@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using movie_review_api.Common;
 using movie_review_api.Contracts;
 using movie_review_api.Data.Models;
 using movie_review_api.DTOs.Actor;
@@ -27,7 +28,7 @@ namespace movie_review_api.Controllers
 
             if (actors == null)
             {
-                return BadRequest("No actors!");
+                return BadRequest(Messages.NoActors);
             }
 
             return Ok(actors);
@@ -42,7 +43,7 @@ namespace movie_review_api.Controllers
 
             if (!isFound)
             {
-                return NotFound();
+                return NotFound(Messages.ActorNotFound);
             }
 
             var actor = mapper.Map<ActorDto>(actorRepository.GetActor(actorId));
@@ -83,7 +84,7 @@ namespace movie_review_api.Controllers
 
             if (actorRepository.ActorExistsByName(actorModel.FirstName + " " + actorModel.LastName))
             {
-                ModelState.AddModelError("", "Actor already exists");
+                ModelState.AddModelError("", Messages.ActorExists);
                 return StatusCode(422, ModelState);
             }
 
@@ -107,7 +108,7 @@ namespace movie_review_api.Controllers
 
             if (actorId != updatedActor.Id)
             {
-                return BadRequest("IDs are not the same");
+                return BadRequest(Messages.NoSameIds);
             }
 
             if (!ModelState.IsValid)
@@ -131,7 +132,7 @@ namespace movie_review_api.Controllers
         {
             if (!actorRepository.ActorExistsById(actorId))
             {
-                return NotFound();
+                return NotFound(Messages.ActorNotFound);
             }
 
             await actorRepository.DeleteActor(actorId);

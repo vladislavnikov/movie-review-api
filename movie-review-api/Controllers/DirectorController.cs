@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using movie_review_api.Common;
 using movie_review_api.Contracts;
 using movie_review_api.Data.Models;
 using movie_review_api.DTOs.Director;
@@ -27,7 +28,7 @@ namespace movie_review_api.Controllers
 
             if (directors == null)
             {
-                return BadRequest("No directors!");
+                return BadRequest(Messages.NoDirectors);
             }
 
             return Ok(directors);
@@ -42,7 +43,7 @@ namespace movie_review_api.Controllers
 
             if (!isFound)
             {
-                return NotFound();
+                return NotFound(Messages.DirectorNotFound);
             }
 
             var director = mapper.Map<DirectorDto>(directorRepository.GetDirector(directorId));
@@ -67,7 +68,7 @@ namespace movie_review_api.Controllers
 
             if (directorRepository.DirectorExistsByName(directorModel.FirstName + " " + directorModel.LastName))
             {
-                ModelState.AddModelError("", "Director already exists");
+                ModelState.AddModelError("", Messages.DirectorExists);
                 return StatusCode(422, ModelState);
             }
 
@@ -91,7 +92,7 @@ namespace movie_review_api.Controllers
 
             if (directorId != updatedDirector.Id)
             {
-                return BadRequest("IDs are not the same");
+                return BadRequest(Messages.NoSameIds);
             }
 
             if (!ModelState.IsValid)
@@ -114,7 +115,7 @@ namespace movie_review_api.Controllers
         {
             if (!directorRepository.DirectorExistsById(directorId))
             {
-                return NotFound();
+                return NotFound(Messages.DirectorExists);
             }
 
             await directorRepository.DeleteDirector(directorId);

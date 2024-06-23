@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using movie_review_api.Common;
 using movie_review_api.ConfigSeed;
 using movie_review_api.Contracts;
 using movie_review_api.Data.Models;
@@ -31,7 +32,7 @@ namespace movie_review_api.Controllers
 
             if (reviews == null)
             {
-                return BadRequest("No reviews!");
+                return BadRequest(Messages.NoRevies);
             }
 
             return Ok(reviews);
@@ -46,7 +47,7 @@ namespace movie_review_api.Controllers
 
             if (!isFount)
             {
-                return NotFound();
+                return NotFound(Messages.ReviewNotFound);
             }
 
             var review = mapper.Map<ReviewDto>(reviewRepository.GetReview(reviewId));
@@ -68,14 +69,14 @@ namespace movie_review_api.Controllers
 
             if (!isFount)
             {
-                return NotFound("No movie found!");
+                return NotFound(Messages.MovieNotFound);
             }
 
             var reviews = mapper.Map<List<ReviewDto>>(reviewRepository.GetReviewsByMovie(movieId));
 
             if (reviews == null)
             {
-                return BadRequest(ModelState);
+                return BadRequest(Messages.NoRevies);
             }
 
             return Ok(reviews);
@@ -88,12 +89,12 @@ namespace movie_review_api.Controllers
         {
             if (reviewModel == null)
             {
-                return BadRequest(ModelState);
+                return BadRequest(Messages.ReviewNotFound);
             }
 
             if (reviewRepository.ReviewExists(reviewModel))
             {
-                ModelState.AddModelError("", "Review already exists");
+                ModelState.AddModelError("", Messages.ReviewExists);
                 return StatusCode(422, ModelState);
             }
 
@@ -112,12 +113,12 @@ namespace movie_review_api.Controllers
         {
             if (updatedReview == null)
             {
-                return BadRequest(ModelState);
+                return BadRequest(Messages.ReviewNotFound);
             }
 
             if (reviewId != updatedReview.Id)
             {
-                return BadRequest("IDs are not the same");
+                return BadRequest(Messages.NoSameIds);
             }
 
             if (!ModelState.IsValid)
@@ -140,7 +141,7 @@ namespace movie_review_api.Controllers
         {
             if (!reviewRepository.ReviewExistsById(reviewId))
             {
-                return NotFound();
+                return NotFound(Messages.ReviewNotFound);
             }
 
             await reviewRepository.DeleteReview(reviewId);

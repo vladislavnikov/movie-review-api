@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using movie_review_api.Common;
 using movie_review_api.Contracts;
 using movie_review_api.Data.Models;
 using movie_review_api.DTOs.Movie;
@@ -27,7 +28,7 @@ namespace movie_review_api.Controllers
 
             if (movies == null)
             {
-                return BadRequest("No movies!");
+                return BadRequest(Messages.NoMovies);
             }
 
             return Ok(movies);
@@ -42,7 +43,7 @@ namespace movie_review_api.Controllers
 
             if (!isFound)
             {
-                return NotFound();
+                return NotFound(Messages.MovieNotFound);
             }
 
             var movie = mapper.Map<MovieDto>(movieRepository.GetMovie(movieId));
@@ -67,7 +68,7 @@ namespace movie_review_api.Controllers
 
             if (movieRepository.MovieExistsByTitle(movieModel.Title))
             {
-                ModelState.AddModelError("", "Movie already exists");
+                ModelState.AddModelError("", Messages.MovieExists);
                 return StatusCode(422, ModelState);
             }
 
@@ -92,7 +93,7 @@ namespace movie_review_api.Controllers
 
             if (movieId != updatedMovie.Id)
             {
-                return BadRequest("IDs are not the same");
+                return BadRequest(Messages.NoSameIds);
             }
 
             if (!ModelState.IsValid)
@@ -115,7 +116,7 @@ namespace movie_review_api.Controllers
         {
             if (!movieRepository.MovieExistsById(movieId))
             {
-                return NotFound();
+                return NotFound(Messages.MovieNotFound);
             }
 
             await movieRepository.DeleteMovie(movieId);

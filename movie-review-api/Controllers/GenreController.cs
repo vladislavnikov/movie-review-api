@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using movie_review_api.Common;
 using movie_review_api.Contracts;
 using movie_review_api.Data.Models;
 using movie_review_api.DTOs.Director;
@@ -31,7 +32,7 @@ namespace movie_review_api.Controllers
 
             if (genres == null)
             {
-                return BadRequest("No genres!");
+                return BadRequest(Messages.NoGenres);
             }
 
             return Ok(genres);
@@ -46,7 +47,7 @@ namespace movie_review_api.Controllers
 
             if (!isFound)
             {
-                return NotFound();
+                return NotFound(Messages.GenreNotFound);
             }
 
             var genre = mapper.Map<GenreDto>(genreRepository.GetGenre(genreId));
@@ -87,7 +88,7 @@ namespace movie_review_api.Controllers
 
             if (genreRepository.GenreExistsByName(genreModel.Name))
             {
-                ModelState.AddModelError("", "Genre already exists");
+                ModelState.AddModelError("", Messages.GenreExists);
                 return StatusCode(422, ModelState);
             }
 
@@ -111,7 +112,7 @@ namespace movie_review_api.Controllers
 
             if (genreId != updatedGenre.Id)
             {
-                return BadRequest("IDs are not the same");
+                return BadRequest(Messages.NoSameIds);
             }
 
             if (!ModelState.IsValid)
@@ -135,7 +136,7 @@ namespace movie_review_api.Controllers
         {
             if (!genreRepository.GenreExistsById(genreId))
             {
-                return NotFound();
+                return NotFound(Messages.GenreNotFound);
             }
 
             await genreRepository.DeleteGenre(genreId);

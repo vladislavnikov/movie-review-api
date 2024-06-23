@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\common\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\common\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|solutionrelative:movie-review-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B5A1A99-B871-4439-AAE1-4CB0C2DF5FB5}|movie-review-api\\movie-review-api.csproj|c:\\users\\vladislav\\documents\\github\\movie-review-api\\movie-review-api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,23 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 512,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\appsettings.json",
               "RelativeDocumentMoniker": "movie-review-api\\appsettings.json",
               "ToolTip": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\appsettings.json",
               "RelativeToolTip": "movie-review-api\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-14T14:55:25.824Z"
+              "WhenOpened": "2024-05-14T14:55:25.824Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Messages.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Common\\Messages.cs",
               "RelativeDocumentMoniker": "movie-review-api\\Common\\Messages.cs",
@@ -90,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GenreController.cs",
               "DocumentMoniker": "C:\\Users\\Vladislav\\Documents\\GitHub\\movie-review-api\\movie-review-api\\Controllers\\GenreController.cs",
               "RelativeDocumentMoniker": "movie-review-api\\Controllers\\GenreController.cs",
